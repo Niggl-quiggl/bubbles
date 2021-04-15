@@ -20,7 +20,7 @@ class Settings(object):
     def get_dim(self):
         return (self.width, self.height)
 
-
+#Habe es leider nie hinbekommen das die sounds funktionieren weswegen es diese hier nicht gibt
 class Enemy(pygame.sprite.Sprite):          
     def __init__(self, settings, game):
         pygame.sprite.Sprite.__init__(self)
